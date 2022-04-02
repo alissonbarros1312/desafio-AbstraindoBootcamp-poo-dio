@@ -43,9 +43,7 @@ public class Bootcamp {
         return devsIncritos;
     }
 
-    public Set<Conteudo> getConteudos() {
-        return conteudos;
-    }
+    public Set<Conteudo> getConteudos() {return conteudos;}
 
     //equals and hashCode
     @Override

@@ -16,7 +16,7 @@ public class Atividade extends Conteudo {
         return "\nAtividade{\n" +
                 "     titulo = " + getTitulo() +
                 "\n     descricao = " + getDescricao() +
-                "\n     cargaHoraria=" + cargaHoraria +
+                "\n     cargaHoraria=" + this.getCargaHoraria()+
                 "}\n";
     }
 
